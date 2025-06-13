@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #282521;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    color: #eee;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  a {
+    color: #80b3ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #282521;
+    font-size: 0.8rem;
+    user-select: none;
+  }  
