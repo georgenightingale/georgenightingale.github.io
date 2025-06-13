@@ -1,7 +1,27 @@
-body {
+:root {
+    --dark-blue-2: #2743a7;
+    --light-blue-1: #b2d6ff;
+    --dark-teal-1: #86baa1;
+    --green-1: #2a6d4c;
+    --dark-green-1: #445949;
+    --yellow-1: #ffae4a;
+    --orange-1: #ff8c22;
+    --dark-brown-1: #694932;
+    --dark-red-1: #a52422;
+    --red-1: #ce3030;
+    --light-red-1: #ffa4a4;
+    --white-1: #ffffff;
+    --off-white-1: #f7f1e5;
+    --light-grey-1: #d7cfbe;
+    --silver-1: #a2a2a2;
+    --grey-1: #55595a;
+    --black-1: #282521;
+  }
+  
+  body {
     margin: 0;
-    background-color: #282521;
-    color: #eee;
+    background-color: var(--black-1);
+    color: var(--white-1);
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
@@ -14,7 +34,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
-    color: #eee;
+    color: var(--white-1);
   }
   
   .container {
@@ -22,7 +42,7 @@ body {
   }
   
   a {
-    color: #80b3ff;
+    color: var(--white-1);
     text-decoration: none;
   }
   
@@ -35,7 +55,7 @@ body {
     bottom: 10px;
     width: 100%;
     text-align: center;
-    color: #282521;
+    color: var(--black-1);
     font-size: 0.8rem;
     user-select: none;
   }  
